@@ -1,0 +1,58 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 30px;
+}
+
+.box{
+    background: rgb(188, 232, 245);
+    padding: 30px;
+    border-radius: 10px;
+    width: 30vw;
+}
+
+.inputBox{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.button{
+    background-color: rgb(122, 124, 242);
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+
+.button:hover{
+    letter-spacing: 1px;
+    background-color: rgb(170, 172, 254);
+}
+
+#error{
+    color: red;
+}
+
+.box h1{
+    text-align: center;
+}
+
+.inputBox input{
+    border: none;
+    padding: 5px;
+    outline: 1px solid rgb(197, 194, 194);
+    border-radius: 5px;
+}
+
+
+.inputBox input[type='checkbox']{
+    border: none;
+    padding: 5px;
+    outline: none;
+    margin-top: -17px;
+    border-radius: 5px;
+}
